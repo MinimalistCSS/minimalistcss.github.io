@@ -3,7 +3,7 @@ title: Textarea
 weight: 10
 ---
 
-.input class allows you to set quick and default input style.
+<span class="hljs-keyword">.input</span> class allows you to set quick and default input style.
 
 * [size](#size)
 * [disabled](#disabled)

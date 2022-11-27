@@ -6,7 +6,7 @@ weight: 20
 ## Examples
 
 ```html
-<div class="green-light">
+<div class="flex green-light">
     <a href="#" class="green">Home</a>
     <span class="mx-2">/</span>
     <a href="#" class="green">Products</a>
@@ -15,7 +15,7 @@ weight: 20
 </div>
 ```
 
-<div class="green-light">
+<div class="flex green-light">
     <a href="#" class="green">Home</a>
     <span class="mx-2">/</span>
     <a href="#" class="green">Products</a>
