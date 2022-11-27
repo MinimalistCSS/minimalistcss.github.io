@@ -8,6 +8,8 @@
     --MAIN-LINK-HOVER-color:#a6fffc; /* Color of hovered links */
     --MAIN-ANCHOR-color: #ffa6fc; /* color of anchors on titles */
 
+    --TOPBAR-BACKGROUND-color:#283036; /* Color of text by default */
+
     --MENU-HOME-LINK-color: #e6e6e6; /* Color of the home button text */
     --MENU-HOME-LINK-HOVER-color: #a6fffc; /* Color of the hovered home button text */
 
@@ -18,14 +20,15 @@
     --MENU-SEARCH-BOX-color: #283036; /* Override search field border color */
     --MENU-SEARCH-BOX-ICONS-color: #e5e9f0; /* Override search field icons color */
 
-    --MENU-SECTIONS-ACTIVE-BG-color:#23272b; /* Background color of the active section and its childs */
+    --MENU-SECTIONS-ACTIVE-BG-color:#283036; /* Background color of the active section and its childs */
     --MENU-SECTIONS-BG-color:#333a46; /* Background color of other sections */
     --MENU-SECTIONS-LINK-color: #e6e6e6; /* Color of links in menu */
     --MENU-SECTIONS-LINK-HOVER-color: #e6e6e6;  /* Color of links in menu, when hovered */
+    --MENU-SECTIONS-LINK-HOVER-BG-color: #23272b;  /* Color of links in menu, when hovered */
     --MENU-SECTION-ACTIVE-CATEGORY-color: #e6e6e6; /* Color of active category text */
-    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #293035; /* Color of background for the active category (only) */
+    --MENU-SECTION-ACTIVE-CATEGORY-BG-color: #434c5e; /* Color of background for the active category (only) */
 
-    --MENU-NAV-BG-HOVER-color: #23272b; /* Color of background for the active category (only) */
+    --MENU-NAV-BG-HOVER-color: #283036; /* Color of background for the active category (only) */
 
     --MENU-VISITED-color: #293035; /* Color of 'page visited' icons in menu */
     --MENU-SECTION-HR-color: #e6e6e6; /* Color of <hr> separator in menu */
@@ -33,11 +36,11 @@
 
 body {
     color: var(--MAIN-TEXT-color) !important;
-    background-color: var(--MAIN-BACKGROUND-color) !important;
+    background-color: var(--MAIN-BACKGROUND-color);
 }
 
-#main, #top-bar, th {
-    background-color: var(--MAIN-BACKGROUND-color) !important;
+#main, #top-bar {
+    background-color: var(--TOPBAR-BACKGROUND-color) ;
 }
 
 .nav:hover {
@@ -45,7 +48,7 @@ body {
 }
 
 .bg, table, td {
-    border: 1px solid var(--MENU-HEADER-BORDER-color) !important;
+    border: 1px solid var(--MENU-HEADER-BORDER-color);
 }
 
 textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, select[multiple=multiple]:focus {
@@ -54,14 +57,18 @@ textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[typ
 }
 
 h2, h3, h4, h5 {
-    color: var(--MAIN-TITLES-TEXT-color) !important;
+    color: var(--MAIN-TITLES-TEXT-color);
+}
+
+th {
+    background-color: var(--MAIN-BACKGROUND-color);
 }
 
 a {
     color: var(--MAIN-LINK-color);
 }
 .progress {
-    background-color: var(--MENU-SEARCH-BOX-color) !important;
+    background-color: var(--MENU-SEARCH-BOX-color);
     border: thin solid var(--MENU-SEARCH-BG-color);
 }
 
@@ -117,6 +124,7 @@ a:hover {
 
 #sidebar a:hover {
     color: var(--MENU-SECTIONS-LINK-HOVER-color);
+    background: var(--MENU-SECTIONS-LINK-HOVER-BG-color);
 }
 
 #sidebar ul li.active > a {
