@@ -36,7 +36,7 @@ weight = 2
 [params]
 author = "Wayne Wesley"
 description = "Hello there, I’m Wayne Wesley aka The-Repo-Club"
-themeVariant = "blue"
+themeVariant = "minimalist"
 menu_item_separator = " - "
 
 [[params.social]]

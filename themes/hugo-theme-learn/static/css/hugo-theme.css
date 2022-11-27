@@ -50,9 +50,7 @@ body {
 }
 .progress {
     position:absolute;
-    background-color: rgba(246, 246, 246, 0.97);
     width: auto;
-    border: thin solid #ECECEC;
     display:none;
     z-index:200;
 }
