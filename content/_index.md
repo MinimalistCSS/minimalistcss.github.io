@@ -36,4 +36,4 @@ Just import your favorite google font, and use font name as class
 
 Make hover more interactive. Tons of styles available for hover.
 
-[Read the docs →](/docs/)
+[Read the docs →](/getting-started/)
