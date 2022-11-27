@@ -20,7 +20,8 @@ Or you can use lite version. Lite version don't have color options, only gray co
 ### Use NPM:
 
 Install minimalistcss via npm.
-npm i minimalistcss --save-dev
+
+`npm i minimalistcss --save-dev`
 
 and import into your file
 

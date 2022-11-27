@@ -1,14 +1,10 @@
 ## Feature rich CSS framework for the new decade
 
-MinimalistCSS is a free and open source css framework, that allows you to make unique and modern design without writing any css
+MinimalistCSS is a free and open source css framework, that allows you to make unique and modern design without writing any css.
 
-`npm i minimalistcss`
+### Installation
 
-Documentation
-
-Why MinimalistCSS?
-
-Download v1.1.1
+[Installation](http://localhost:1313/getting-started/installation/) instructions can be found here.
 
 ### Why MinimalistCSS?
 
