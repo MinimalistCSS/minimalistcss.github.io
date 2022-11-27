@@ -25,28 +25,13 @@ body {
     color: #323232 !important;
 }
 
-#body a.highlight, #body a.highlight:hover, #body a.highlight:focus {
+a.highlight, a.highlight:hover, a.highlight:focus {
     text-decoration: none;
     outline: none;
     outline: 0;
 }
-#body a.highlight {
-    line-height: 1.1;
+.links a.highlight {
     display: inline-block;
-}
-#body a.highlight:after {
-    display: block;
-    content: "";
-    height: 1px;
-    width: 0%;
-    background-color: #0082a7; /*#CE3B2F*/
-    -webkit-transition: width 0.5s ease;
-    -moz-transition: width 0.5s ease;
-    -ms-transition: width 0.5s ease;
-    transition: width 0.5s ease;
-}
-#body a.highlight:hover:after, #body a.highlight:focus:after {
-    width: 100%;
 }
 .progress {
     position:absolute;

@@ -3,7 +3,7 @@ title: Collapse
 weight: 25
 ---
 
-This collapse is an example created using classes. There is no class of collapse
+This collapse is an example created using classes. There is no class of collapse.
 
 <div class="bg-gray-lightest gray-darkest px-5 py-3 br-3 border-l bw-6 bc-gray">
     <p>
@@ -16,7 +16,7 @@ This collapse is an example created using classes. There is no class of collapse
 ```html
 <div class="p-5 border br-t-8 mt-5 ">
     <div class="w-80pc mx-auto">
-        <div class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-gray-lighter after-right after-scale-up-3 after-plus">
+        <div class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-gray-lighter blue after-right after-scale-up-3 after-plus">
         What is Lorem ipsum?</div>
         <div class="collapse-target" style="display: none;">
             <div class="p-5 border br-4">
@@ -38,7 +38,7 @@ This collapse is an example created using classes. There is no class of collapse
 
 <div class="p-5 border br-t-8 mt-5 ">
     <div class="w-80pc mx-auto">
-        <div class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-gray-lighter after-right after-scale-up-3 after-plus">
+        <div class="collapse-trigger no-underline hover-underline block w-100pc p-5 my-1 br-4 bg-gray-lighter blue after-right after-scale-up-3 after-plus">
         What is Lorem ipsum?</div>
         <div class="collapse-target" style="display: none;">
             <div class="p-5 border br-4">
