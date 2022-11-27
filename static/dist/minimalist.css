@@ -8177,7 +8177,7 @@ border, border-radius, border-width, border-color, border-style
 
 /**
 border-radius
-shorthand: .br-{t|r|b|l}-{radius}
+code: .br-{t|r|b|l}-{radius}
 */
 .br-none {
   border-radius: 0px !important;
@@ -9593,7 +9593,7 @@ shorthand: .br-{t|r|b|l}-{radius}
 
 /**
 border-width
-shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
+code: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 */
 .bw-0,
 .hover-bw-0:hover,
@@ -10689,7 +10689,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 
 /**
   border-color
-  shorthand: .bc-{color}, .border-{color}
+  code: .bc-{color}, .border-{color}
   */
 .bc-black,
 .hover-bc-black:hover,
@@ -11843,7 +11843,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 
 /**
   border color alpha
-  shorthand: .bc-{color}-{alpha}, .border-{color}-{alpha}
+  code: .bc-{color}-{alpha}, .border-{color}-{alpha}
 */
 .bc-black-10,
 .hover-bc-black-10:hover,
@@ -22213,7 +22213,7 @@ shorthand: .bw-{t|r|b|l}-{width}, .{screen|hover|focus}-bw-{t|r|b|l}-{width}
 
 /**
   border style
-  shorthand: .{screen}-border-{style}
+  code: .{screen}-border-{style}
 */
 .border-none,
 .hover-border-none:hover,
@@ -23160,6 +23160,585 @@ fill, equal, grow, and shrink
 
 .flex-initial {
   flex: 0 1 auto;
+}
+
+/**
+fill-color
+code: .fill-{color}
+*/
+.fill-black,
+.fill-black:hover {
+  fill: #000000 !important;
+}
+
+.fill-white,
+.fill-white:hover {
+  fill: #FFFFFF !important;
+}
+
+.fill-transparent,
+.fill-transparent:hover {
+  fill: transparent !important;
+}
+
+.fill-blue-darkest,
+.fill-blue-darkest:hover {
+  fill: #02305D !important;
+}
+
+.fill-blue-darker,
+.fill-blue-darker:hover {
+  fill: #1A5D9E !important;
+}
+
+.fill-blue-dark,
+.fill-blue-dark:hover {
+  fill: #1773CE !important;
+}
+
+.fill-blue,
+.fill-blue:hover {
+  fill: #409EFF !important;
+}
+
+.fill-blue-light,
+.fill-blue-light:hover {
+  fill: #65B2FF !important;
+}
+
+.fill-blue-lighter,
+.fill-blue-lighter:hover {
+  fill: #B3D9FF !important;
+}
+
+.fill-blue-lightest,
+.fill-blue-lightest:hover {
+  fill: #ECF5FF !important;
+}
+
+.fill-indigo-darkest,
+.fill-indigo-darkest:hover {
+  fill: #272075 !important;
+}
+
+.fill-indigo-darker,
+.fill-indigo-darker:hover {
+  fill: #332A99 !important;
+}
+
+.fill-indigo-dark,
+.fill-indigo-dark:hover {
+  fill: #3F33BD !important;
+}
+
+.fill-indigo,
+.fill-indigo:hover {
+  fill: #5A4FCF !important;
+}
+
+.fill-indigo-light,
+.fill-indigo-light:hover {
+  fill: #837AE6 !important;
+}
+
+.fill-indigo-lighter,
+.fill-indigo-lighter:hover {
+  fill: #C2BDF6 !important;
+}
+
+.fill-indigo-lightest,
+.fill-indigo-lightest:hover {
+  fill: #F0EEFF !important;
+}
+
+.fill-purple-darkest,
+.fill-purple-darkest:hover {
+  fill: #3D065F !important;
+}
+
+.fill-purple-darker,
+.fill-purple-darker:hover {
+  fill: #600A97 !important;
+}
+
+.fill-purple-dark,
+.fill-purple-dark:hover {
+  fill: #840DCE !important;
+}
+
+.fill-purple,
+.fill-purple:hover {
+  fill: #AA38F2 !important;
+}
+
+.fill-purple-light,
+.fill-purple-light:hover {
+  fill: #CC88F7 !important;
+}
+
+.fill-purple-lighter,
+.fill-purple-lighter:hover {
+  fill: #E9CBFC !important;
+}
+
+.fill-purple-lightest,
+.fill-purple-lightest:hover {
+  fill: #F9F0FE !important;
+}
+
+.fill-pink-darkest,
+.fill-pink-darkest:hover {
+  fill: #580020 !important;
+}
+
+.fill-pink-darker,
+.fill-pink-darker:hover {
+  fill: #930036 !important;
+}
+
+.fill-pink-dark,
+.fill-pink-dark:hover {
+  fill: #C9366C !important;
+}
+
+.fill-pink,
+.fill-pink:hover {
+  fill: #F06597 !important;
+}
+
+.fill-pink-light,
+.fill-pink-light:hover {
+  fill: #F58EB4 !important;
+}
+
+.fill-pink-lighter,
+.fill-pink-lighter:hover {
+  fill: #FFCDDF !important;
+}
+
+.fill-pink-lightest,
+.fill-pink-lightest:hover {
+  fill: #FFEBF2 !important;
+}
+
+.fill-red-darkest,
+.fill-red-darkest:hover {
+  fill: #750E12 !important;
+}
+
+.fill-red-darker,
+.fill-red-darker:hover {
+  fill: #A9151A !important;
+}
+
+.fill-red-dark,
+.fill-red-dark:hover {
+  fill: #CC191F !important;
+}
+
+.fill-red,
+.fill-red:hover {
+  fill: #E7393F !important;
+}
+
+.fill-red-light,
+.fill-red-light:hover {
+  fill: #ED6D72 !important;
+}
+
+.fill-red-lighter,
+.fill-red-lighter:hover {
+  fill: #F8C5C7 !important;
+}
+
+.fill-red-lightest,
+.fill-red-lightest:hover {
+  fill: #FCE8E8 !important;
+}
+
+.fill-orange-darkest,
+.fill-orange-darkest:hover {
+  fill: #854300 !important;
+}
+
+.fill-orange-darker,
+.fill-orange-darker:hover {
+  fill: #C06000 !important;
+}
+
+.fill-orange-dark,
+.fill-orange-dark:hover {
+  fill: #E77400 !important;
+}
+
+.fill-orange,
+.fill-orange:hover {
+  fill: #FF8710 !important;
+}
+
+.fill-orange-light,
+.fill-orange-light:hover {
+  fill: #FFB872 !important;
+}
+
+.fill-orange-lighter,
+.fill-orange-lighter:hover {
+  fill: #FFE0C0 !important;
+}
+
+.fill-orange-lightest,
+.fill-orange-lightest:hover {
+  fill: #FFF3E7 !important;
+}
+
+.fill-yellow-darkest,
+.fill-yellow-darkest:hover {
+  fill: #6A5502 !important;
+}
+
+.fill-yellow-darker,
+.fill-yellow-darker:hover {
+  fill: #B79303 !important;
+}
+
+.fill-yellow-dark,
+.fill-yellow-dark:hover {
+  fill: #DDB104 !important;
+}
+
+.fill-yellow,
+.fill-yellow:hover {
+  fill: #FACB0E !important;
+}
+
+.fill-yellow-light,
+.fill-yellow-light:hover {
+  fill: #FDE482 !important;
+}
+
+.fill-yellow-lighter,
+.fill-yellow-lighter:hover {
+  fill: #FEF0BC !important;
+}
+
+.fill-yellow-lightest,
+.fill-yellow-lightest:hover {
+  fill: #FEF7DB !important;
+}
+
+.fill-pear-darkest,
+.fill-pear-darkest:hover {
+  fill: #4F560C !important;
+}
+
+.fill-pear-darker,
+.fill-pear-darker:hover {
+  fill: #7F8A13 !important;
+}
+
+.fill-pear-dark,
+.fill-pear-dark:hover {
+  fill: #9EAC18 !important;
+}
+
+.fill-pear,
+.fill-pear:hover {
+  fill: #BECF1D !important;
+}
+
+.fill-pear-light,
+.fill-pear-light:hover {
+  fill: #DDE965 !important;
+}
+
+.fill-pear-lighter,
+.fill-pear-lighter:hover {
+  fill: #F4F8CC !important;
+}
+
+.fill-pear-lightest,
+.fill-pear-lightest:hover {
+  fill: #FBFDEE !important;
+}
+
+.fill-green-darkest,
+.fill-green-darkest:hover {
+  fill: #206120 !important;
+}
+
+.fill-green-darker,
+.fill-green-darker:hover {
+  fill: #2F8D2F !important;
+}
+
+.fill-green-dark,
+.fill-green-dark:hover {
+  fill: #39AB39 !important;
+}
+
+.fill-green,
+.fill-green:hover {
+  fill: #49C249 !important;
+}
+
+.fill-green-light,
+.fill-green-light:hover {
+  fill: #89E089 !important;
+}
+
+.fill-green-lighter,
+.fill-green-lighter:hover {
+  fill: #DCF3DC !important;
+}
+
+.fill-green-lightest,
+.fill-green-lightest:hover {
+  fill: #EAF8EA !important;
+}
+
+.fill-mint-darkest,
+.fill-mint-darkest:hover {
+  fill: #136B44 !important;
+}
+
+.fill-mint-darker,
+.fill-mint-darker:hover {
+  fill: #1DA569 !important;
+}
+
+.fill-mint-dark,
+.fill-mint-dark:hover {
+  fill: #23C67E !important;
+}
+
+.fill-mint,
+.fill-mint:hover {
+  fill: #35DB92 !important;
+}
+
+.fill-mint-light,
+.fill-mint-light:hover {
+  fill: #89EABF !important;
+}
+
+.fill-mint-lighter,
+.fill-mint-lighter:hover {
+  fill: #DCF9EC !important;
+}
+
+.fill-mint-lightest,
+.fill-mint-lightest:hover {
+  fill: #F2FCF7 !important;
+}
+
+.fill-teal-darkest,
+.fill-teal-darkest:hover {
+  fill: #225960 !important;
+}
+
+.fill-teal-darker,
+.fill-teal-darker:hover {
+  fill: #2D747D !important;
+}
+
+.fill-teal-dark,
+.fill-teal-dark:hover {
+  fill: #378E99 !important;
+}
+
+.fill-teal,
+.fill-teal:hover {
+  fill: #42A9B6 !important;
+}
+
+.fill-teal-light,
+.fill-teal-light:hover {
+  fill: #95D1D9 !important;
+}
+
+.fill-teal-lighter,
+.fill-teal-lighter:hover {
+  fill: #DDF0F3 !important;
+}
+
+.fill-teal-lightest,
+.fill-teal-lightest:hover {
+  fill: #EDF9FA !important;
+}
+
+.fill-wine-darkest,
+.fill-wine-darkest:hover {
+  fill: #481E23 !important;
+}
+
+.fill-wine-darker,
+.fill-wine-darker:hover {
+  fill: #722F37 !important;
+}
+
+.fill-wine-dark,
+.fill-wine-dark:hover {
+  fill: #8E3A44 !important;
+}
+
+.fill-wine,
+.fill-wine:hover {
+  fill: #AA4652 !important;
+}
+
+.fill-wine-light,
+.fill-wine-light:hover {
+  fill: #D2939A !important;
+}
+
+.fill-wine-lighter,
+.fill-wine-lighter:hover {
+  fill: #EFD8DB !important;
+}
+
+.fill-wine-lightest,
+.fill-wine-lightest:hover {
+  fill: #FAF3F4 !important;
+}
+
+.fill-brown-darkest,
+.fill-brown-darkest:hover {
+  fill: #3D2F2B !important;
+}
+
+.fill-brown-darker,
+.fill-brown-darker:hover {
+  fill: #54413B !important;
+}
+
+.fill-brown-dark,
+.fill-brown-dark:hover {
+  fill: #6B534C !important;
+}
+
+.fill-brown,
+.fill-brown:hover {
+  fill: #8D6D64 !important;
+}
+
+.fill-brown-light,
+.fill-brown-light:hover {
+  fill: #C8B7B2 !important;
+}
+
+.fill-brown-lighter,
+.fill-brown-lighter:hover {
+  fill: #E9E2E0 !important;
+}
+
+.fill-brown-lightest,
+.fill-brown-lightest:hover {
+  fill: #FFF9F7 !important;
+}
+
+.fill-almond-darkest,
+.fill-almond-darkest:hover {
+  fill: #634120 !important;
+}
+
+.fill-almond-darker,
+.fill-almond-darker:hover {
+  fill: #8A5B2C !important;
+}
+
+.fill-almond-dark,
+.fill-almond-dark:hover {
+  fill: #AD7237 !important;
+}
+
+.fill-almond,
+.fill-almond:hover {
+  fill: #C48647 !important;
+}
+
+.fill-almond-light,
+.fill-almond-light:hover {
+  fill: #DCB792 !important;
+}
+
+.fill-almond-lighter,
+.fill-almond-lighter:hover {
+  fill: #EFDECD !important;
+}
+
+.fill-almond-lightest,
+.fill-almond-lightest:hover {
+  fill: #F9F0E8 !important;
+}
+
+.fill-slategray-darkest,
+.fill-slategray-darkest:hover {
+  fill: #05192D !important;
+}
+
+.fill-slategray-darker,
+.fill-slategray-darker:hover {
+  fill: #102C45 !important;
+}
+
+.fill-slategray-dark,
+.fill-slategray-dark:hover {
+  fill: #2F5070 !important;
+}
+
+.fill-slategray,
+.fill-slategray:hover {
+  fill: #517495 !important;
+}
+
+.fill-slategray-light,
+.fill-slategray-light:hover {
+  fill: #96B1CB !important;
+}
+
+.fill-slategray-lighter,
+.fill-slategray-lighter:hover {
+  fill: #D0DCE7 !important;
+}
+
+.fill-slategray-lightest,
+.fill-slategray-lightest:hover {
+  fill: #F2F5F7 !important;
+}
+
+.fill-gray-darkest,
+.fill-gray-darkest:hover {
+  fill: #36454F !important;
+}
+
+.fill-gray-darker,
+.fill-gray-darker:hover {
+  fill: #465966 !important;
+}
+
+.fill-gray-dark,
+.fill-gray-dark:hover {
+  fill: #566E7E !important;
+}
+
+.fill-gray,
+.fill-gray:hover {
+  fill: #668295 !important;
+}
+
+.fill-gray-light,
+.fill-gray-light:hover {
+  fill: #B7C4CD !important;
+}
+
+.fill-gray-lighter,
+.fill-gray-lighter:hover {
+  fill: #E4E8EB !important;
+}
+
+.fill-gray-lightest,
+.fill-gray-lightest:hover {
+  fill: #EEF1F5 !important;
 }
 
 /* 
@@ -25144,7 +25723,7 @@ word-wrap
 
 /**
 text-stroke-width
-shorthand: .text-stroke-{width}
+code: .text-stroke-{width}
 */
 .text-stroke-0 {
   -webkit-text-stroke-width: 0px !important;
@@ -25196,7 +25775,7 @@ shorthand: .text-stroke-{width}
 
 /**
 text-stroke-color
-shorthand: .text-stroke-{color}
+code: .text-stroke-{color}
 */
 .text-stroke-black,
 .hover-text-stroke-black:hover {
@@ -25890,7 +26469,7 @@ shorthand: .text-stroke-{color}
 
 /**
 text-fill-color
-shorthand: .text-fill-{color}
+code: .text-fill-{color}
 */
 .text-fill-black,
 .hover-text-fill-black:hover {
@@ -38975,7 +39554,7 @@ backdrop-filter
 */
 /**
 Icons
-shorthand: .after-{icon}
+code: .after-{icon}
 */
 .after-plus::after,
 .before-plus::before {
@@ -40401,7 +40980,7 @@ Forms:
     label
 */
 /**
-shorthand class:
+code class:
     .input
     .input.disabled
     .input.full|half
@@ -40578,7 +41157,7 @@ fieldset:disabled
 }
 
 /**
-shorthand class: 
+code class:
     .textarea
     .textarea.disabled
     .textarea.full|half
