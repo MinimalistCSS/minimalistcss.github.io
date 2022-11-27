@@ -8,4 +8,4 @@ pre : "<b>5. </b>"
 
 # Theme
 
-The Themes that make up MinimalistCSS.
+The Themes attributes that make up MinimalistCSS.
