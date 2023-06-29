@@ -4,7 +4,7 @@ MinimalistCSS is a free and open source css framework, that allows you to make u
 
 ### Installation
 
-[Installation](http://localhost:1313/getting-started/installation/) instructions can be found here.
+[Installation](http://https://minimalistcss.github.io/getting-started/installation/) instructions can be found here.
 
 ### Why MinimalistCSS?
 
