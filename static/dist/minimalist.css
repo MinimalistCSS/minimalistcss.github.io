@@ -24349,6 +24349,10 @@ font-family
   font-family: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
 }
 
+.sys-ui {
+  font-family: Proxima Nova, system-ui, sans-serif !important;
+}
+
 .lato {
   font-family: 'Lato', sans-serif !important;
 }
@@ -24491,6 +24495,10 @@ font-family
 
 .fira-code {
   font-family: 'Fira Code', monospace !important;
+}
+
+.Nunito {
+  font-family: 'Nunito', monospace !important;
 }
 
 /**
