@@ -27049,6 +27049,7 @@ code: .text-fill-{color}
 /*
 Typography:
   gaps
+  grids
 */
 /**
 Gaps
@@ -28129,6 +28130,10 @@ display
   display: flex !important;
 }
 
+.grid {
+  display: grid !important;
+}
+
 .inline-flex {
   display: inline-flex !important;
 }
@@ -28162,6 +28167,9 @@ display
   .sm-flex {
     display: flex !important;
   }
+  .sm-grid {
+    display: grid !important;
+  }
   .sm-inline-flex {
     display: inline-flex !important;
   }
@@ -28191,6 +28199,9 @@ display
   }
   .md-flex {
     display: flex !important;
+  }
+  .md-grid {
+    display: grid !important;
   }
   .md-inline-flex {
     display: inline-flex !important;
@@ -28222,6 +28233,9 @@ display
   .lg-flex {
     display: flex !important;
   }
+  .lg-grid {
+    display: grid !important;
+  }
   .lg-inline-flex {
     display: inline-flex !important;
   }
@@ -28251,6 +28265,9 @@ display
   }
   .xl-flex {
     display: flex !important;
+  }
+  .xl-grid {
+    display: grid !important;
   }
   .xl-inline-flex {
     display: inline-flex !important;
